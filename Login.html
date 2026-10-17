@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <title>Login</title>
+    <head>
+        <style>
+            body{
+                background-color: rgba(231, 216, 229, 0.541);
+                background-image: url("Library-Login.jpg")
+            }
+            .page{
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .login-box{
+                
+                background-color: rgba(82, 67, 78, 0.616);
+                padding: 50px;
+                width: 500px;
+                display: flex;
+                font-size: 30px;
+
+                flex-direction: column;
+                align-items: center;
+                gap: 5px;
+                font-family:fantasy;
+                color:aquamarine;
+
+            }
+            a{
+                color:aliceblue;
+                font-size:medium;
+            }
+            button {
+                background-color:aquamarine;
+                color:#444141;
+                border: none;
+                padding: 10px 30px;
+                border-radius: 5px;
+                font-size: 18px;
+                cursor: pointer;
+            }
+            input{
+                width: 180px;
+                height: 25px;
+                border: 2px solid #96909b52;
+                border-radius: 5px;
+                padding: 0 10px;
+                font-size: 16px;
+                background-color:rgb(196, 206, 206);
+            }
+        </style>
+
+    </head>
+<body>
+<div class = "page">
+    <div class = "login-box">
+
+    <label for = "username">Username</label>
+    <input type = "text" id = "username" placeholder = "Enter your username"><br>
+
+    <label for = "password">Password</label>
+    <input type = "text" id = "password" placeholder = "Enter your password"><br>
+
+    <form action="Home.html">
+    <input type="submit" value="Login">
+    </form>
+
+
+    <a href = "forgot_password.html">Forgot Password?</a>
+</body>
+</div>
+</div>
+
+</html>
